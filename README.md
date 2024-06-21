@@ -23,3 +23,6 @@ Step:03 Git pull and push.
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/5de91397-a389-4466-8036-adae8f409fe5)
 
 
+From Part-2
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/db8e2b90-9718-432c-a4ea-0c5aaf5c488f)
