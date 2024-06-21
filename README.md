@@ -27,3 +27,6 @@ Step:05 Output.
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/5de91397-a389-4466-8036-adae8f409fe5)
 
 
+From Part-3
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/72d8f3b5-f8c6-4fb6-9432-f43bcc059ae6)
