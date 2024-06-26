@@ -57,6 +57,8 @@ Step:01 After making branch, make six files index.html, about.html, contact.html
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/f7c8a89f-3364-475c-851f-949a4c390610)
 
 
+Step:02 Uploaded files, Commit and pull request.
+
 
 
 
