@@ -31,34 +31,61 @@ From Part-2
 
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/db8e2b90-9718-432c-a4ea-0c5aaf5c488f)
 
-Step:01 After making branch, make six files index.html, about.html, contact.html, Style.css, Script.js, images.
+Step:01 After making branch, make files index.html, about.html, contact.html, Style.css, Script.js and also 2 images.
 <br>
 #Index.html file In Visual Studio Code.
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/823e853e-2d34-48a2-9838-92bbaf41e84f)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/35d3577b-54c1-4516-af02-cbbe1dcaea79)
 
 #About.html
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/650003e0-e175-4c82-acbf-8b9ad65ecbc8)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/6a91a796-5bcb-43ba-8a7d-43f0c238fc3b)
 
 #Contact.html
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/3dfcdc62-2b66-4439-a220-2c6105dc20b4)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/375ed87d-347c-4ce3-a7f6-c07a0e355a8a)
 
 
 #Script.html
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/44694ac2-c599-417f-abe4-88726342f1ee)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/e4aad4a1-46f3-4dca-aeb8-f203c7eafa32)
 
 #Style.css
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/fd222d56-3328-4674-b600-dd9b6eae9587)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/da2fc819-5e5f-43ff-95db-bf8c3704ec51)
 
 #Images
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/6f498859-babc-4508-b6aa-cd76b9dde0ff)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/2d2ed173-c0f4-42fd-8d6f-e2707ce137fb)
 
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/f7c8a89f-3364-475c-851f-949a4c390610)
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/2c46f88d-e806-408d-ae44-e9f54af50378)
+
+
+
+Step:02 Uploaded files, Commit, merge to main and pull request.
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/e2f04452-cad0-4fed-95ea-094e4d26162b)
+
+Step:03 Output
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/8f402b1b-87a3-488d-9651-69c3ab8f3725)
+
+Step:04 Mock-ups in XD
+
+#Laptop Desktop
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/4e2586b1-17c5-4b6b-a640-60f316551877)
+
+#Iphone14promax
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/537bf7a6-c992-4afb-9442-637bc0665918)
+
+#Ipad pro12.9inch
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/896caf83-77a0-4154-b6fc-7892cbd51342)
+
+
+
+
 
 
 
