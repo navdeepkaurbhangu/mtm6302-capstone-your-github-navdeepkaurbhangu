@@ -82,11 +82,9 @@ Step:04 Mock-ups in XD
 
 Step:05 Pull request and merging to main.
 
-![Screenshot (506)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/43a6f3d8-b4e3-4bfb-a23c-cac4f8832a29)
-
-![Screenshot (505)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/259a59c4-36c6-4330-87b0-168294c2b96a)
-
 ![Screenshot (505)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/77b4798e-677b-45f9-af00-05577cc4277a)
+
+![Screenshot (506)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/43a6f3d8-b4e3-4bfb-a23c-cac4f8832a29)
 
 
 
