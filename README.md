@@ -62,7 +62,7 @@ Step:01 After making branch, make files index.html, about.html, contact.html, St
 
 
 
-Step:02 Uploaded files, Commit, merge to main and pull request.
+Step:02 Uploaded files.
 
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/e2f04452-cad0-4fed-95ea-094e4d26162b)
 
@@ -83,6 +83,14 @@ Step:04 Mock-ups in XD
 
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/896caf83-77a0-4154-b6fc-7892cbd51342)
 
+
+
+![Screenshot (505)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/98ffb922-e989-4cae-9e29-f978ede86f5b)
+
+
+![Screenshot (506)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/a4742501-17b6-4a6a-a523-b71c714ef3bb)
+
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/e84d7e3d-752d-4ed0-940b-f5db90e05cd4)
 
 
 
