@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="logo">
+            <img src="Logo.jpg" alt="Logo">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <form id="search-form" class="search-form">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h1 class="text-center">Astronomy Picture of the Day</h1>
+            <form id="date-form" class="form-section">
+                <div class="mb-3">
+                    <label for="date-input" class="form-label">Enter a date:</label>
+                    <input type="date" id="date-input" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Get Picture</button>
+            </form>
+            <div id="apod-container" class="apod-section text-center"></div>
+        </section>
+
+        
+        <section class="section">
+            <h2 class="text-center">Favourites</h2>
+            <div id="favourites-container" class="row favourites-section"></div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2024 APOD Viewer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

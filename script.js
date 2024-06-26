@@ -1,88 +1,80 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const pokemonList = document.getElementById("pokemon-list");
-    const loadMoreButton = document.getElementById("load-more");
-    const pokemonDetails = document.getElementById("pokemon-details");
-    let offset = 0;
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('date-form');
+    const apodContainer = document.getElementById('apod-container');
+    const favouritesContainer = document.getElementById('favourites-container');
 
-    const getPokemonList = async (offset) => {
-        try {
-            const response = await fetch(`https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=20`);
-            const data = await response.json();
-            return data.results;
-        } catch (error) {
-            console.error("Error fetching Pokémon list:", error);
+    const apiKey = '6GGh12bLupFe7UheeGeRuWa3S5hFLP8oJqC0iuDZ'; // Replace with your NASA API key
+
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const date = document.getElementById('date-input').value;
+        if (date) {
+            const apodData = await fetchApodData(date);
+            displayApod(apodData);
         }
-    };
+    });
 
-    const getPokemonDetails = async (url) => {
-        try {
-            const response = await fetch(url);
-            const data = await response.json();
-            return data;
-        } catch (error) {
-            console.error("Error fetching Pokémon details:", error);
+    function fetchApodData(date) {
+        return fetch(`https://api.nasa.gov/planetary/apod?date=${date}&api_key=${apiKey}`)
+            .then(response => response.json())
+            .catch(error => console.error('Error fetching APOD data:', error));
+    }
+
+    function displayApod(data) {
+        const { url, title, date, explanation, hdurl } = data;
+        apodContainer.innerHTML = `
+            <h3>${title}</h3>
+            <p>${date}</p>
+            <img src="${url}" alt="${title}" id="apod-image">
+            <p>${explanation}</p>
+        `;
+        const apodImage = document.getElementById('apod-image');
+        apodImage.addEventListener('click', () => {
+            window.open(hdurl, '_blank');
+        });
+
+        const saveButton = document.createElement('button');
+        saveButton.textContent = 'Save to Favourites';
+        saveButton.className = 'btn btn-success my-3';
+        saveButton.addEventListener('click', () => saveToFavourites(data));
+        apodContainer.appendChild(saveButton);
+    }
+
+    function saveToFavourites(data) {
+        let favourites = JSON.parse(localStorage.getItem('favourites')) || [];
+        if (!favourites.some(fav => fav.date === data.date)) {
+            favourites.push(data);
+            localStorage.setItem('favourites', JSON.stringify(favourites));
+            displayFavourites();
         }
-    };
+    }
 
-    const displayPokemon = async () => {
-        const pokemonArray = await getPokemonList(offset);
-        for (const pokemon of pokemonArray) {
-            const pokemonData = await getPokemonDetails(pokemon.url);
-            const pokemonCard = document.createElement("div");
-            pokemonCard.className = "pokemon-card";
-            pokemonCard.innerHTML = `
-                <img src="${pokemonData.sprites.front_default}" alt="${pokemonData.name}">
-                <p>${pokemonData.name}</p>
+    function displayFavourites() {
+        favouritesContainer.innerHTML = '';
+        const favourites = JSON.parse(localStorage.getItem('favourites')) || [];
+        favourites.forEach(favourite => {
+            const { url, title, date } = favourite;
+            const favouriteDiv = document.createElement('div');
+            favouriteDiv.className = 'col-md-4 favourite';
+            favouriteDiv.innerHTML = `
+                <img src="${url}" alt="${title}">
+                <button class="delete-button">Delete</button>
+                <h5>${title}</h5>
+                <p>${date}</p>
             `;
-            pokemonCard.addEventListener("click", () => showPokemonDetails(pokemon.url));
-            pokemonList.appendChild(pokemonCard);
-        }
-        offset += 20;
-    };
+            favouriteDiv.querySelector('.delete-button').addEventListener('click', () => {
+                deleteFavourite(date);
+            });
+            favouritesContainer.appendChild(favouriteDiv);
+        });
+    }
 
-    const showPokemonDetails = async (url) => {
-        try {
-            const data = await getPokemonDetails(url);
-            pokemonDetails.innerHTML = `
-                <div class="modal-content">
-                    <h2>${data.name}</h2>
-                    <img src="${data.sprites.front_default}" alt="${data.name}">
-                    <p>Height: ${data.height}</p>
-                    <p>Weight: ${data.weight}</p>
-                    <button id="toggle-caught">${isCaught(data.name) ? 'Release' : 'Catch'}</button>
-                    <button id="close-modal">Close</button>
-                </div>
-            `;
-            pokemonDetails.style.display = "flex";
-            document.getElementById("toggle-caught").addEventListener("click", () => toggleCaught(data.name));
-            document.getElementById("close-modal").addEventListener("click", () => closeModal());
-        } catch (error) {
-            console.error("Error fetching Pokémon details:", error);
-        }
-    };
+    function deleteFavourite(date) {
+        let favourites = JSON.parse(localStorage.getItem('favourites')) || [];
+        favourites = favourites.filter(favourite => favourite.date !== date);
+        localStorage.setItem('favourites', JSON.stringify(favourites));
+        displayFavourites();
+    }
 
-    const closeModal = () => {
-        pokemonDetails.style.display = "none";
-    };
-
-    const toggleCaught = (pokemonName) => {
-        let caughtList = JSON.parse(localStorage.getItem("caughtPokemon")) || [];
-        if (caughtList.includes(pokemonName)) {
-            caughtList = caughtList.filter(name => name !== pokemonName);
-        } else {
-            caughtList.push(pokemonName);
-        }
-        localStorage.setItem("caughtPokemon", JSON.stringify(caughtList));
-        document.getElementById("toggle-caught").textContent = caughtList.includes(pokemonName) ? "Release" : "Catch";
-    };
-
-    const isCaught = (pokemonName) => {
-        const caughtList = JSON.parse(localStorage.getItem("caughtPokemon")) || [];
-        return caughtList.includes(pokemonName);
-    };
-
-    loadMoreButton.addEventListener("click", displayPokemon);
-
-    // Initial load
-    displayPokemon();
+    displayFavourites();
 });

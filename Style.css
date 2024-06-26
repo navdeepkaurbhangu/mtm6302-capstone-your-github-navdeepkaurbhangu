@@ -1,0 +1,203 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #030305, #0d0e12); 
+    color: #faf8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    text-shadow: 0 2px 5px #070606;
+}
+
+.container {
+    background: rgba(250, 218, 34, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(86, 35, 35, 0.3);
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto; 
+    
+}
+
+
+.header-section {
+    background: rgba(244, 100, 5, 0.95);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li {
+    margin-right: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: #030305; 
+}
+
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+#search-form button {
+    background-color: #030406; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: rgb(196, 215, 255); 
+}
+
+
+.form-section {
+    background: rgb(12, 10, 10); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.apod-section {
+    background: rgb(1, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.favourites-section {
+    background: rgb(8, 7, 7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.about-section {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; 
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 10px; 
+}
+
+
+.contact-section {
+    background-color: #f3f3f6; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: auto; 
+    width: 100%;
+}
+
+
+.btn {
+    background-color: #020308; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #000000; 
+}
+
+
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation ul li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .search-form {
+        margin-top: 10px;
+    }
+}
