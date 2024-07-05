@@ -69,4 +69,7 @@ Step:04
 Commit changes
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/1b65f9c8-8df8-4cc3-b6dd-cd0e3801dce6)
 
+Step:05
+Compare and Pull
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/9b284e47-561b-46d4-ae30-982b856a8b11)
 
