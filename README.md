@@ -65,5 +65,8 @@ Output
 #Contact Page
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/0669a072-8982-48a5-b268-160f4bade48e)
 
+Step:04
+Commit changes
+![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/1b65f9c8-8df8-4cc3-b6dd-cd0e3801dce6)
 
 
