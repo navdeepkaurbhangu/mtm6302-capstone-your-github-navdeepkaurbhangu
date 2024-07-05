@@ -67,10 +67,6 @@ Output
 
 
 Step:04
-Compare and Pull
-![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/9b284e47-561b-46d4-ae30-982b856a8b11)
-
-Step:05
 Uploaded files, Commit, merge to main and pull request.
 
 ![Screenshot (526)](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/afda60ef-d3e5-4a86-8e6b-83dd65438898)
