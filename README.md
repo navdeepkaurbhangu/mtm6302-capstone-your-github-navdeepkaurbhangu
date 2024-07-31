@@ -101,6 +101,7 @@ From Part-4
 
 Step:01 After making branch, make files index.html, about.html, contact.html, Style.css, logo image and also 2 project folders namely Nasa and Pokemon consist of all the files like index.html, about.html, contact.html, Style.css, etc.
 <br>
+
 #index.html
 ![image](https://github.com/user-attachments/assets/82850f55-2a44-4433-9d7a-3dcc1c0701fb)
 
@@ -132,10 +133,10 @@ Step:03 Output
 ![image](https://github.com/user-attachments/assets/487b85da-63f6-4810-bf32-d458be7e123c)
 
 #About us Page
-![image](https://github.com/user-attachments/assets/b67ac502-9bce-4b68-a071-dc979bcf6911)
+![image](https://github.com/user-attachments/assets/b13c8ba4-26cf-4207-a367-7e66e954732d)
 
 #Contact Page
-![image](https://github.com/user-attachments/assets/3e8b6c20-c2b1-4430-951c-533e615b8a10)
+![image](https://github.com/user-attachments/assets/163d77ec-b661-4574-a3df-99d6324f3294)
 
 
 
