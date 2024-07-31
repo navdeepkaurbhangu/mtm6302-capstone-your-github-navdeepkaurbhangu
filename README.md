@@ -96,8 +96,26 @@ Step:04 Mock-ups in XD
 
 
 
-From PArt-4
+From Part-4
+![image](https://github.com/user-attachments/assets/6b89f5f6-92d3-435d-9b5b-c564a438ddbe)
 
+Step:01 After making branch, make files index.html, about.html, contact.html, Style.css, logo image and also 2 project folders namely Nasa and Pokemon consist of all the files like index.html, about.html, contact.html, Style.css, etc.
+<br>
+#index.html
+![image](https://github.com/user-attachments/assets/82850f55-2a44-4433-9d7a-3dcc1c0701fb)
+
+#about.html
+![image](https://github.com/user-attachments/assets/440f59eb-d7c3-4c8a-b1d8-63ac30fe0627)
+
+
+#contact.html
+![image](https://github.com/user-attachments/assets/6b252f25-df2b-4c13-9185-0eb295330f8f)
+
+#style.css
+![image](https://github.com/user-attachments/assets/0b2b3af8-48f4-4863-991f-2f116dc6e5f0)
+
+#Logo Image
+![image](https://github.com/user-attachments/assets/b44d07b5-0522-4035-9ac5-62f1814e49fb)
 
 
 
