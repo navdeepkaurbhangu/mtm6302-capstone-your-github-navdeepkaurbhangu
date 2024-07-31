@@ -62,7 +62,7 @@ Step:01 After making branch, make files index.html, about.html, contact.html, St
 
 
 
-Step:02 Uploaded files.
+Step:02 Upload files.
 
 ![image](https://github.com/navdeepkaurbhangu/mtm6302-capstone-your-github-navdeepkaurbhangu/assets/133885471/e2f04452-cad0-4fed-95ea-094e4d26162b)
 
@@ -107,7 +107,6 @@ Step:01 After making branch, make files index.html, about.html, contact.html, St
 #about.html
 ![image](https://github.com/user-attachments/assets/440f59eb-d7c3-4c8a-b1d8-63ac30fe0627)
 
-
 #contact.html
 ![image](https://github.com/user-attachments/assets/6b252f25-df2b-4c13-9185-0eb295330f8f)
 
@@ -116,6 +115,29 @@ Step:01 After making branch, make files index.html, about.html, contact.html, St
 
 #Logo Image
 ![image](https://github.com/user-attachments/assets/b44d07b5-0522-4035-9ac5-62f1814e49fb)
+
+Step:02 Upload Files
+![image](https://github.com/user-attachments/assets/fd64882d-f2f3-4965-a07b-6b19c38280ee)
+
+
+Step:03 Output 
+
+#Home Page
+![image](https://github.com/user-attachments/assets/099e5a52-031f-4214-a5ff-7924888cd23c)
+
+#Project 1
+![image](https://github.com/user-attachments/assets/5c3c4020-1080-4cc8-a250-de3e4cf1a933)
+
+#Project 2
+![image](https://github.com/user-attachments/assets/487b85da-63f6-4810-bf32-d458be7e123c)
+
+#About us Page
+![image](https://github.com/user-attachments/assets/b67ac502-9bce-4b68-a071-dc979bcf6911)
+
+#Contact Page
+![image](https://github.com/user-attachments/assets/3e8b6c20-c2b1-4430-951c-533e615b8a10)
+
+
 
 
 
